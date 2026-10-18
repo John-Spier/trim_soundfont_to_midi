@@ -36,7 +36,7 @@ DLS addresses instruments by MSB + LSB + drum flag natively, so it always matche
 (none -> bank 0; all/GM -> bank 0 as well).
 
 Drums: a drum part maps to SF2 bank 128 / DLS drum instruments when the soundfont has
-any; otherwise it is treated like a melodic part (e.g. GBA rips with no bank 128).
+any; otherwise it is treated like a melodic part.
 Missing presets fall back like FluidSynth: bank 0 same program, then bank 0 program 0;
 drum kits fall back to kit 0.
 """
