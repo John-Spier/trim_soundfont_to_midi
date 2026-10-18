@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Trim an SF2/SF3 or DLS file down to what a specific MIDI file actually plays
-(equivalent to Awave Studio's "Remove items not used by any MIDI song").
+Trim an SF2/SF3 or DLS file down to what a specific MIDI file actually plays.
 
 For every note-on in the MIDI, the bank/program active on that part picks a
 preset. Only presets that sound a note are kept, and inside them only the preset
